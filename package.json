@@ -1,0 +1,22 @@
+{
+  "name": "wpack",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf assets",
+    "build": "webpack -p",
+    "prebuild": "npm run clean",
+    "predev": "npm run clean",
+    "dev": "webpack -d --watch"
+  },
+  "author": "Ignacio Catalina",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^1.12.14",
+    "style-loader": "^0.13.0",
+    "sass-loader": "^3.1.2",
+    "css-loader": "^0.23.1",
+    "node-sass": "^3.4.2"
+  }
+}
