@@ -1,8 +1,12 @@
 {
   "name": "wpack",
   "version": "0.0.1",
-  "description": "",
+  "description": "Playing with webpack",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:icatalina/playing-with-webpack.git"
+  },
   "scripts": {
     "clean": "rm -rf assets",
     "build": "webpack -p",
@@ -13,10 +17,11 @@
   "author": "Ignacio Catalina",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^1.12.14",
-    "style-loader": "^0.13.0",
-    "sass-loader": "^3.1.2",
     "css-loader": "^0.23.1",
-    "node-sass": "^3.4.2"
+    "moquire": "^1.5.5",
+    "node-sass": "^3.4.2",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.14"
   }
 }
